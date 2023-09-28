@@ -19,7 +19,8 @@ input[type="checkbox"]:focus {
 }
 
 .banners-1 {
-  background-image: url(./assets/banner-1.png);
+  background-image: url(./assets/banner-1.png); 
+  
 }
 
 .banners {
@@ -74,3 +75,16 @@ input[type="checkbox"]:focus {
     --bs-accordion-color: white;
   }
 }
+
+@media (max-width: 767px) {
+  .banners-1 {
+    background-image: url(./assets/coffee-5495609_640.jpg);
+    height: 700px;  
+  }
+
+  .banners-2 {
+    background-image: url(./assets/coffee-5037800_640.jpg);
+    height: 700px;
+  }
+}
+

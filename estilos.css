@@ -79,12 +79,12 @@ input[type="checkbox"]:focus {
 @media (max-width: 767px) {
   .banners-1 {
     background-image: url(./assets/coffee-5495609_640.jpg);
-    height: 700px;  
+    
   }
 
   .banners-2 {
-    background-image: url(./assets/coffee-5037800_640.jpg);
-    height: 700px;
+    background-image: url(./assets/coffee-5037800.jpg);
+    
   }
 }
 

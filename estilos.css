@@ -87,9 +87,8 @@ input[type="checkbox"]:focus {
   }
 
   .banners-1 {
-    background-image: url(./assets/coffee-5495609_640.jpg);
-    
-    
+    background-image: url(./assets/coffee-5495609_640.jpg);   
+    height: 600px;
   }
 
   .banners-2 {
@@ -101,6 +100,40 @@ input[type="checkbox"]:focus {
   .banners-3 {
     background-image: url(./assets/banner-3.png);
     height: 500px;
+  }
+
+  .banners-titulo {
+    --bs-bg-opacity: .4;
+  }
+}
+
+@media (min-width:768px) and (max-width: 1023px) {
+  .banners {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-attachment:scroll; 
+  }
+
+  .banners-1 {
+    background-image: url(./assets/coffee-5495609_640.jpg);   
+    
+  }
+
+  .banners-2 {
+    background-image: url(./assets/coffee-5037800.jpg);    
+    
+  }
+
+  .banners-3 {
+    background-image: url(./assets/banner-3.png);
+    height: 500px;
+  }
+
+  .banners-titulo {
+    --bs-bg-opacity: .4;
   }
 }
 
